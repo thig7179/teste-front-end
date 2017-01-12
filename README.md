@@ -18,9 +18,9 @@ Desenvolver uma aplicação HTML5
 
 ## Especificações funcionais
 ### Tela Inicial
-Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder “Procure seu filme” e um botão “Buscar". O action desse form deverá ser a url http://www.omdbapi.com/?s={nome_do_filme}.
+Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder "Procure seu filme" e um botão "Buscar". Essa busca deverá chamar a url http://www.omdbapi.com/?s={nome_do_filme}.
 
-Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de filmes com os campos do retorno da chamada(Título, Ano, Tipo, imdbID, Poster). O campo de busca deverá ter validação.
+Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de filmes com os campos do retorno da chamada (Título, Ano, Tipo, imdbID, Poster). O campo de busca deverá ter validação.
 
 A lista de filmes deve mostrar apenas o poster do filme e um botão para ver o detalhe do filme. Deve mostrar apenas os 6 primeiros resultados e deve possuir paginação infinita mostrando de 6 em 6 resultados.
 
