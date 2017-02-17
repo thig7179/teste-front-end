@@ -2,23 +2,23 @@
 Desenvolver uma aplicação HTML5
 
 ## Instruções
-- Faça um fork desse projeto para a sua conta pessoal do GitHub.
+- Faça um fork desse projeto para a sua conta pessoal do GitHub, ou BitBucket.
 - Siga as especificações abaixo.
 - Crie um README com as instruções para compilar, testar e rodar o projeto.
 - O link do repositório deverá ser enviado para o e-mail frontend@icasei.com.br com o título **Teste FrontEnd Pleno**
 
 ## Especificações tecnicas
 - Utilizar diretrizes do [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
-- Utilizar a [OMDb API](http://www.omdbapi.com)
+- Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
 - Mobile first e responsivo
 - Usar framework JS (AngularJS, Backbone, Knockout)
-- Cores livres, layout livre, imagens livres (fora os posters)
+- Cores livres, layout livre, imagens livres
 - Gitflow
 - Testes automatizados
 
 ## Especificações funcionais
 ### Tela Inicial
-Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder "Procure seu filme" e um botão "Buscar". Essa busca deverá chamar a url http://www.omdbapi.com/?s={nome_do_filme}.
+Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder "Pesquisar" e um botão "Buscar". Essa busca deverá chamar a url http://www.omdbapi.com/?s={nome_do_filme}.
 
 Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de filmes com os campos do retorno da chamada (Título, Ano, Tipo, imdbID, Poster). O campo de busca deverá ter validação.
 
