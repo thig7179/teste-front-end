@@ -18,16 +18,18 @@ Desenvolver uma aplicação HTML5
 
 ## Especificações funcionais
 ### Tela Inicial
-Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder "Pesquisar" e um botão "Buscar". Essa busca deverá chamar a url http://www.omdbapi.com/?s={nome_do_filme}.
+Essa tela terá um formulário de busca posicionado no meio da tela com campo de texto com placeholder "Pesquisar" e um botão "Buscar". Esse formulário deverá ter validação.
 
-Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de filmes com os campos do retorno da chamada (Título, Ano, Tipo, imdbID, Poster). O campo de busca deverá ter validação.
+Essa busca deverá chamar a url https://www.googleapis.com/youtube/v3/search?part=id,snippet&q={termo_de_busca}&key={API_KEY}
 
-A lista de filmes deve mostrar apenas o poster do filme e um botão para ver o detalhe do filme. Deve mostrar apenas os 6 primeiros resultados e deve possuir paginação infinita mostrando de 6 em 6 resultados.
+Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css animate e mostrar a lista de resultados com os campos título, descrição, thumbnail e um link para a página de detalhes.
+
+Essa página deverá ter paginação, utilizando os [recursos de paginação da api](https://developers.google.com/youtube/v3/guides/implementation/pagination?hl=pt-br).
 
 ### Tela de detalhes
-A partir do imdbID retornado na outra chamada, deve ser feito uma chamada para http://www.omdbapi.com/?i={imbd_id}.
+A partir do videoId retornado na outra chamada, deve ser feito uma chamada para https://www.googleapis.com/youtube/v3/videos?id={VIDEO_ID}&part=snippet,statistics&key={API_KEY}
 
-A partir desse retorno, deve-se montar uma tela onde apareçam as informações Title, Year, Rated, Genre, Director, Writer, Actors, Plot, Language, Country, Awards, Poster, Type.
+A partir desse retorno, deve-se montar uma tela contendo embed do video, título, descrição e visualizações.
 
 Essa tela deve ter um botão para voltar para resultados da busca.
 
