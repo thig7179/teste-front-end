@@ -11,7 +11,7 @@ Desenvolver uma aplicação HTML5
 - Utilizar diretrizes do [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
 - Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
 - Mobile first e responsivo
-- Usar framework JS (AngularJS, Backbone, Knockout)
+- Usar framework JS (React)
 - Cores livres, layout livre, imagens livres
 - Gitflow
 - Testes automatizados
