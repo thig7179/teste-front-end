@@ -1,11 +1,11 @@
-# Teste iCasei: Front-End Pleno
+# Teste iCasei: Front-End
 Desenvolver uma aplicação HTML5
 
 ## Instruções
 - Faça um fork desse projeto para a sua conta pessoal do GitHub, ou BitBucket.
 - Siga as especificações abaixo.
 - Crie um README com as instruções para compilar, testar e rodar o projeto.
-- O link do repositório deverá ser enviado para o e-mail frontend@icasei.com.br com o título **Teste FrontEnd Pleno**
+- O link do repositório deverá ser enviado para o e-mail frontend@icasei.com.br com o título **Teste FrontEnd**
 
 ## Especificações tecnicas
 - Utilizar diretrizes do [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html)
