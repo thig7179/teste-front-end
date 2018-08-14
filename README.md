@@ -44,6 +44,7 @@ Essa tela deve ter um botão para voltar, exibindo os últimos resultados da bus
 
 ### Wireframe
 wireframe mobile: https://invis.io/TKNIYA2FH3M#/314438484_M-SearchHome
+
 wireframe desktop: https://invis.io/TKNIYA2FH3M#/314438479_D-SearchHome
 
 ## O que será avaliado?
