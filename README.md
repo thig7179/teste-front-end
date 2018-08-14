@@ -26,15 +26,29 @@ Ao fazer a busca, o formulário deve ser movido para o topo da tela usando css a
 
 Essa página deverá ter paginação, utilizando os [recursos de paginação da api](https://developers.google.com/youtube/v3/guides/implementation/pagination?hl=pt-br).
 
+Construir um carrossel responsivo no footer abaixo da paginação, que deve exibir os vídeos apresentados na lista e obedecer os seguintes requisitos:
+
+- Deve ser componente de autoria própria (não serão aceitos códigos de plugins reutilizados);
+- Receber parâmetro de quantidade de quadros a serem exibidos e tempo de animação;
+- Pausar animação no "mouse hover";
+- Animação infinita (não deixar espaços vazios na exibição);
+- Deve ter função de reload vinculada com a paginação;
+- Deve ter status null (resposta de busca vazia).
+
 ### Tela de detalhes
 A partir do videoId retornado na outra chamada, deve ser feito uma chamada para https://www.googleapis.com/youtube/v3/videos?id={VIDEO_ID}&part=snippet,statistics&key={API_KEY}
 
-A partir desse retorno, deve-se montar uma tela contendo embed do video, título, descrição e visualizações.
+A partir desse retorno, deve-se montar uma tela contendo embed do video, título, like, deslike, descrição e visualizações.
 
-Essa tela deve ter um botão para voltar para resultados da busca.
+Essa tela deve ter um botão para voltar, exibindo os últimos resultados da busca com a pagina em questão ativa.
+
+### Wireframe
+wireframe mobile: https://invis.io/TKNIYA2FH3M#/314438484_M-SearchHome
+wireframe desktop: https://invis.io/TKNIYA2FH3M#/314438479_D-SearchHome
 
 ## O que será avaliado?
 - Organização do projeto
 - Lógica do código
 - Uso do Git
+- Uso de componentização
 - Testes automatizados
