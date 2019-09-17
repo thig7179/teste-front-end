@@ -14,7 +14,9 @@ Desenvolver uma aplicação HTML5
 - Usar framework JS (React, Angular ou frameworks relacionados)
 - Cores livres, layout livre, imagens livres
 - Gitflow
-- Testes automatizados
+
+## Observações
+- Para consumir os dados desta [API](https://developers.google.com/youtube/v3/docs/search/list), você deve gerar sua api_key de aplicação neste [link](https://developers.google.com/youtube/v3/getting-started?hl=pt-br).
 
 ## Especificações funcionais
 ### Tela Inicial
@@ -52,4 +54,3 @@ wireframe desktop: https://invis.io/TKNIYA2FH3M#/314438479_D-SearchHome
 - Lógica do código
 - Uso do Git
 - Uso de componentização
-- Testes automatizados
