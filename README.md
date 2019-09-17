@@ -36,9 +36,9 @@ A partir desse retorno, deve-se montar uma tela contendo embed do video, título
 Essa tela deve ter um botão para voltar, exibindo os últimos resultados da busca com a pagina em questão ativa.
 
 ### Wireframe
-wireframe mobile: https://invis.io/NATYJTE3G4U
+wireframe mobile: https://projects.invisionapp.com/share/TKNIYA2FH3M#/screens
 
-wireframe desktop: https://invis.io/V5TYJT2KYWJ
+wireframe desktop: https://projects.invisionapp.com/share/TKNIYA2FH3M#/screens/384336638
 
 ## O que será avaliado?
 - Organização do projeto
