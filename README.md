@@ -12,7 +12,8 @@ Desenvolver uma aplicação HTML5.
   - [Node.js](https://nodejs.org/en/) 
   - [Go](https://go.dev/)
   - [Next.js](https://nextjs.org/)
-  - Qualquer outra linguagem back end também séra aceita
+  - [Ruby](https://www.ruby-lang.org/pt/)
+  - Qualquer outra linguagem back end também será aceita
 - Utilizar diretrizes do [Google Material Design](https://material.io/develop/web)
 - Utilizar a [API de busca do YouTube](https://developers.google.com/youtube/v3/docs/search/list)
 - Mobile first e responsivo
@@ -29,7 +30,7 @@ Desenvolver uma aplicação HTML5.
 
 Essa tela terá um formulário de login com os campos de nome e e-mail, validar campo de e-mail usando expressão regulares com javascript.
 
-##### OBS: Usuário não deve ter acesso a busca de vídeos caso não esteja logado na sessão.
+##### OBS: Usuário deve ter acesso a busca de vídeos caso houver sessão criada.
 
 ### Tela Busca de vídeos
 
