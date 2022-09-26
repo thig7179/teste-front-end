@@ -51,9 +51,9 @@ A partir desse retorno, deve-se montar uma tela contendo embed do video, título
 Essa tela deve ter um botão para voltar, exibindo os últimos resultados da busca com a pagina em questão ativa.
 
 ### Wireframe
-[Wireframe Mobile](https://projects.invisionapp.com/share/TKNIYA2FH3M#/screens)
+[Wireframe Mobile](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A237&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A237)
 
-[Wireframe Desktop](https://projects.invisionapp.com/share/TKNIYA2FH3M#/screens/384336638)
+[Wireframe Desktop](https://www.figma.com/proto/8PgmEzgqXUzLufhzExa6S3/teste-frontend?node-id=2%3A766&scaling=min-zoom&page-id=2%3A765&starting-point-node-id=2%3A766)
 
 ## O que será avaliado?
 - Organização do projeto
