@@ -35,25 +35,25 @@ VUE_APP_URL=http://localhost:3001
 ### Instalar pacotes
 
 ```
-npm instalar
+npm install
 ```
 
 ### Compila e recarrega a quente para desenvolvimento
 
 ```
-npm executar servir
+npm run server
 ```
 
 ### Compila e minifica para produção
 
 ```
-npm executar compilação
+npm run build
 ```
 
 ### Desfia e corrige arquivos
 
 ```
-npm executar lint
+npm run lint
 ```
 
 ### Personalizar configuração
