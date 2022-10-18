@@ -29,7 +29,7 @@
                 ><v-icon size="25">mdi-video-plus</v-icon></v-btn
               >
             </template>
-            <span>Create a video and more</span>
+            <span>Create a video and more...</span>
           </v-tooltip>
         </template>
         <v-list>
